@@ -48,7 +48,7 @@ class DAQ_0DViewer_FSR(DAQ_Viewer_base):
 
             ## TODO for your custom plugin
             #initialize viewers pannel with the future type of data
-            self.data_grabed_signal_temp.emit([DataFromPlugins(name='FSR',data=[np.array([0]), np.array([0])], dim='Data0D',
+            self.data_grabed_signal_temp.emit([DataFromPlugins(name='FSR',data=[np.array([0])], dim='Data0D',
                                                           labels=['Mock1', 'label2'])])
             ##############################
 
