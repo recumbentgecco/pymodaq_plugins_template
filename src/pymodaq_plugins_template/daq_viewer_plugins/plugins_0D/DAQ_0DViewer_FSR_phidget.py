@@ -4,7 +4,7 @@ from pymodaq.daq_utils.daq_utils import ThreadCommand, getLineInfo, DataFromPlug
 from pymodaq.daq_viewer.utility_classes import DAQ_Viewer_base, comon_parameters, main
 from pymodaq_plugins_template.hardware.FSR_phidget import FSR
 
-class DAQ_0DViewer_FSR(DAQ_Viewer_base):
+class DAQ_0DViewer_FSR_phidget(DAQ_Viewer_base):
     """
     """
     params = comon_parameters+[
