@@ -1,14 +1,14 @@
 ## To modify by developper(s) of the plugin
 
 [plugin-info]
-SHORT_PLUGIN_NAME = 'template'  #to be modified, for instance daqmx then rename the module name:
+SHORT_PLUGIN_NAME = 'FSR_phidget'  #to be modified, for instance daqmx then rename the module name:
 # (pymodaq_plugins_template become pymodaq_plugins_daqmx for instance)
 
-package-url = 'https://github.com/CEMES-CNRS/pymodaq_plugins_template' #to modify
+package-url = 'https://github.com/recumbentgecco/pymodaq_plugins_template' #to modify
 description = 'some word about your plugin'
 
-author = 'Author Name'
-author-email = 'Author email'
+author = 'Cyrille Claudet'
+author-email = 'cyrille.claudet@univ-cotedazur.fr'
 license = 'MIT'
 
 [plugin-install]
